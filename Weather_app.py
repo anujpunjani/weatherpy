@@ -11,7 +11,7 @@ api_key = ''
 Canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH, bg='#5aa8ad')
 Canvas.pack()
 
-background_image = tk.PhotoImage(file='D:\\__py\\Weatherapp\\landscape.png')
+background_image = tk.PhotoImage(file='landscape.png')
 background = tk.Label(root, image=background_image)
 background.place(relheight=1, relwidth=1)
 
